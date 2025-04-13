@@ -1,0 +1,202 @@
+body {
+    background-color: #2b5876;
+    background-image: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.navbar {
+    background: linear-gradient(to right, #4b6cb7, #7a5fd3, #9866e9);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 0 0 10px 10px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-family: 'Montserrat', Arial, sans-serif;
+    transition: transform 0.4s ease; 
+  }
+  
+  .navbar i {
+    margin: 0 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar i:hover {
+    transform: translateY(-3px);
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+    position: relative;
+    padding: 5px 0;
+  }
+  
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar i.fa-house, .navbar i.fa-camera, .navbar i.fa-list,
+  .navbar i.fa-user, .navbar i.fa-right-to-bracket, .navbar i.fa-phone {
+    color: #fff;
+    filter: drop-shadow(0 0 1px rgba(255,255,255,0.4));
+  }
+ 
+.category-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.tile {
+    background: linear-gradient(135deg, #4e78c8 0%, #7d54fb 100%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.tile:hover {
+    transform: translateY(-5px);
+}
+
+.category-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.category-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    margin: 40px 0;
+}
+
+.photography-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.photo-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card h2 {
+    color: #4e78c8;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.photo-card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.details {
+    font-size: large;
+    color: white;
+}
+
+label {
+    font-size: 150%;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    transition: padding 0.3s;
+}
+
+label:hover {
+    padding-left: 20px;
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+    width: 35%;
+    font-size: large;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.btn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 120%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: #4e54c8;
+    background-color: white;
+}
+
+.bnt {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 85%;
+    width: 35%;
+    margin: 4.5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: all 0.3s;
+}
+
+.bnt:hover {
+    color: #4e54c8;
+    background-color: white;
+}
